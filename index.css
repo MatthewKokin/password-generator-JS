@@ -1,3 +1,4 @@
+/* Global styles */
 body {
     margin-top: 25px;
     background: #1C1C1C;
@@ -6,18 +7,19 @@ body {
     font-weight: lighter;
     display: flex;
     flex-direction: column;
-}
-
-main{
+  }
+  
+  /* Main content */
+  main {
     background-color: #1F2937;
     width: 550px;
     height: 550px;
     margin: auto;
     border: 5px solid #4ADF86;
     border-radius: 10px;
-}
-
-.container{
+  }
+  
+  .container {
     width: 550px;
     height: 550px;
     display: flex;
@@ -27,19 +29,18 @@ main{
     margin-left: 52px;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-/* -------------Input and button section------------- */
-
-.inputContainer{
+  }
+  
+  /* Input and button section */
+  .input-container {
     width: 446px;
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: space-between;
-}
-
-input{
+  }
+  
+  input {
     background-color: #273549;
     color: white;
     border-radius: 6px;
@@ -47,9 +48,9 @@ input{
     height: 40px;
     width: 250px;
     text-align: center;
-}
-
-button{
+  }
+  
+  button {
     padding: 9px 15px;
     background: #4ADF86;
     border: none;
@@ -57,65 +58,59 @@ button{
     color: whitesmoke;
     font-size: 16px;
     box-shadow: 0px 0px 3px #4CBB17;
-}
-
-/* ---------------------------------------------------- */
-
-h1{
-    font-size: 40px;
-    font-family: 'Karla', sans-serif;
-}
-
-.next-line{
-    display: block;
-    color: #4ADF86;
-    
-}
-
-p {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-
-.passwords{
+  }
+  
+  /* Password boxes */
+  .passwords {
     display: flex;
     width: 446px;
     height: 110px;
     margin-top: 35px;
     border-top: 1px solid #2F3E53;
-}
-.first-box, .second-box{
+  }
+  
+  .password-box {
     background-color: #273549;
     color: white;
     border-radius: 6px;
     border: none;
     width: 211px;
     height: 39px;
-
     display: flex;
     margin: auto;
-}
-
-.first-box{
-    margin-left: 0px;
-    margin-right: 24px;
-}
-
-
-#first, #second {
+  }
+  
+  #first,
+  #second {
     color: #55F991;
     font-size: 16px;
     font-weight: 500;
     margin: auto;
-}
-
-.shadow{
+  }
+  
+  .shadow {
     box-shadow: 0px 0px 3px #1C1C1C;
-}
-
-
-footer{
+  }
+  
+  /* Footer */
+  footer {
     text-align: center;
     margin-top: 50px;
-}
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  .next-line {
+    display: block;
+    color: #4ADF86;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
